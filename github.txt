@@ -1,0 +1,24 @@
+#1
+
+c= [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
+
+def düzleştirici(c):
+    c.remove([1,'a',['cat'],2])
+    c.insert(0,1)
+    c.insert(1,"a")
+    c.insert(2,"cat")
+    c.insert(3,"2")
+    c.pop(4)
+    c.insert(4,3)
+    c.insert(5,"dog")
+    print(c)
+
+düzleştirici(c)
+
+#2
+
+def sıralayıcı(c):
+    c.reverse()
+    print(c)
+
+sıralayıcı(c)
